@@ -10,7 +10,7 @@ $(document).ready(function() {
         </button>
       </td>
       <td>${song.title}</td>
-      <td>${song.duration}</td>
+      <td>${prettyTime(song.duration)}</td>
      </tr>
    `);
 
